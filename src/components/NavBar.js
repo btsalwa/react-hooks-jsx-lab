@@ -2,9 +2,11 @@ import React from "react";
 
 function NavBar() {
   // update the JSX being returned!
-  <a href="#Home" </a>;
-  <a href="#About" </a>;
-  return <nav>NavBar</nav>;
+  return <nav> 
+      <a href= '#home'> Home </a>
+      <a href= '#about'> About </a>
+  
+  </nav>;
 }
 
 export default NavBar;
